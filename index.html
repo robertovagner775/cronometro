@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+    <div class="container-model">
+        <div class="model">
+            <div class="boxCronometer">
+                <label id="hor" >00</label>
+                <label >:</label>
+                <label id="min">00</label>
+                <label >:</label>
+                <label id="seg">00</label>
+                <label for="">:</label>     
+                <label id="mseg">00</label>
+            </div>
+        <div class="boxButton"> 
+                <button id="btStart" onclick="start()">Iniciar</button>
+
+                <button id="btStop" onclick="stop()">Pausar</button>
+
+                <button id="btClean" onclick="clearCronometer()">Zerar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
